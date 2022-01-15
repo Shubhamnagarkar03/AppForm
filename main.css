@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+
+body{
+  background: url("wp1.jpg");
+  background-position: center;
+  background-size: auto;
+}
+
+form{
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow:  -5px 5px 5px white;
+  margin: 0 4% 0 4%;
+  background-color: rgba(0,0,0,.7);
+  color: white;
+
+}
+#maindiv{
+  margin:0 4% 0 4%;
+}
+#maindiv h1{
+  font-family: 'Zilla Slab', serif;
+animation: changes 4s infinite;
+animation-play-state:running;
+}
+
+@keyframes changes {
+   0%{
+     color: red;
+   }
+   50%{
+     color: yellow;
+   }
+   100%{
+     color: Aqua;
+   }
+}
